@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0"/>
+        <title>Title</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    </head>
+    <body>
+        <div class="controller">
+            <div class="box">
+                <label for="">top-left-border</label>
+                <input id="top-left" type="number">
+            </div>
+            <div class="box">
+                <label for="">top-right-border</label>
+                <input id="top-right" type="number">
+            </div>
+            <div class="box">
+                <label for="">bot-right-border</label>
+                <input id="bot-right" type="number">
+            </div>
+            <div class="box">
+                <label for="">bot-left-border</label>
+                <input id="bot-left" type="number">
+            </div>
+        </div>
+        <div class="container" id="container">
+            <h1>Hello, this is border previewer!</h1>
+        </div>
+        <div class="copy-clip">
+            <div class="copy-box">
+                <span id="clipboard">Copy Me</span>
+            </div>
+        </div>
+        <button id="btn" class="btn">Generate Custom CSS</button>
+    </body>
+</html>

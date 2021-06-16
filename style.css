@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Jura', sans-serif;
+    background-color: lightgray;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.controller {
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin: 1rem;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100vh;
+    border-width: 0.1rem;
+    border-style: solid;
+    background: linear-gradient(#fc6cc0, #460066);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+}
+
+.copy-box {
+    width: 100vh;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1.5rem;
+    border-radius: 0.1rem;
+    border-style: solid;
+    padding: 3rem 9rem 3rem 9rem;
+    font-family: inherit;
+    background-color: white;
+}
+
+button {
+    margin: 0 0 1rem 0;
+    padding: 1rem;
+    background-color: rgb(88, 0, 88);
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: purple;
+}
